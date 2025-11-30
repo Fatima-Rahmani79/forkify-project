@@ -1,0 +1,27 @@
+{
+  "name": "forkify-project",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatima-Rahmani79/forkify-project.git"
+  },
+  "author": "Fatima Rahmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatima-Rahmani79/forkify-project/issues"
+  },
+  "homepage": "https://github.com/Fatima-Rahmani79/forkify-project#readme",
+  "dependencies": {
+    "core-js": "^3.47.0",
+    "parcel": "^2.16.1",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.1"
+  }
+}
