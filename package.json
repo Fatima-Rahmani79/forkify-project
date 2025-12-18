@@ -1,10 +1,11 @@
-{
+{ 
   "name": "forkify-project",
   "version": "1.0.0",
   "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/Fatima-Rahmani79/forkify-project#readme",
   "dependencies": {
     "core-js": "^3.47.0",
+    "fracty": "^1.0.12",
     "parcel": "^2.16.1",
     "regenerator-runtime": "^0.14.1"
   },
